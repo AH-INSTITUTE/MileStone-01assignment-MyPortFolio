@@ -1,9 +1,21 @@
-*{
-    
-}
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size:40px;
+    font-family: 'Permanent Marker', cursive;
+}
+a{
+    color: dimgray;
+    cursor: pointer;
+}
+p {
+    color: dimgray;
+    width: 95%;
+    text-align: justify;
+}
+.floatleft{float: left;}
+.floatright{float: right;}
 /* =====TypoGraphy */
 body{
     font-family: 'Poppins', sans-serif;
@@ -26,16 +38,25 @@ section{
 h1 span {
     color: orange;
 }
-p {
-    color: dimgray;
-}
 .anchor-button {
     text-decoration: none;
-    background: linear-gradient(45deg, lightsalmon, tomato);
+    background: linear-gradient(45deg, #F92804, #DCE007);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    text-shadow: 1px 3px 3px #000;
+}
+.anchor-button:hover{
+    background: linear-gradient(90deg, #FCC306, #03EC0F);
+}
+.comunacate-facebook{
+    display: block;
+}
+.comunacate-facebook span{
+    font-size: 18px;
+    color: #03EC0F;
+    text-shadow: 1px 2px 3px #000000;
 }
 .half-width img {
     width: 100%;
@@ -45,31 +66,52 @@ p {
     background-repeat: no-repeat;
     background-position: right;
 }
-h2 {
-    font-size: 40px;
-}
 .experience-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
-#full-stack {
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
-}
 .experience-area div {
-    box-shadow: 5px 7px 40px grey;
+    box-shadow: 5px 7px 40px gray;
     height: 80%;
 }
+.experience-area>h2{
+    margin-left: 70px;
+}
 .experience-area h3 {
+    font-size: 22px;
     color: orange;
+    text-shadow: 1px 2px 3px #000000;
+}
+#full-stack {
+    background-color: #fff;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #9C14DD,#11C5B8);
+    border-image-slice: 1;
 }
 #baby-web {
     border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
+    border-image: linear-gradient(180deg, #11C5B8,#9C14DD);
     border-image-slice: 1;
 }
-footer p {
-    text-align: center;
+.footer-part{
+    margin-top: -100px;
+    margin-bottom: 20px;
+    width: 48%;
+}
+.footer-part ol{
+    list-style-type: ;
+}
+.footer-part ol li{
+    display: inline-block;
+}
+.footer-part ol li a{
+    padding: 0 10px;
+}
+.footer-part ol li a:hover{
+    color: #F21707;
+    text-shadow: 1px 2px 3px #000;
+}
+.footer-right-part p{
+    margin-left: 30%;
 }
